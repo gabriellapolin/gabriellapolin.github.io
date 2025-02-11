@@ -60,11 +60,11 @@ img {
 
 
 
-@media screen and (max-device-width:1280px) {
+@media screen and (max-device-width:3000px) {
 
 .page1 {
   background-color: rgb(35, 14, 62);
-  padding: 1%;
+  padding: 0px;
   width:screen;
   height:640px;
 }
@@ -298,11 +298,11 @@ img {
 
 }
 
-@media screen and (orientation: portrait) {
+@media screen and (max-device-width: 500px) {
   
 .page1 {
   background-color: red;
-  padding: 1%;
+  padding: 0px;
   width:screen;
   height:640px;
 }
