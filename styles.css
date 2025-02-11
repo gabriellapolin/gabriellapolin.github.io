@@ -41,7 +41,7 @@ img {
 .star1 {
   padding: 3.4%;
   width: 12.9%;
-  content: url("unfilledStar2.PNG");
+  content: url("unfilledStar2.png");
   opacity: 0%;  
   animation: slideUp 10s forwards;
 }
@@ -80,7 +80,7 @@ img {
 
 .star1:hover {
   transform-style: unset;
-  content: url("filledStar2.PNG") ;
+  content: url("filledStar2.png") ;
 }
 
 .star1:hover ~ .starText1 {
