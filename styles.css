@@ -1,4 +1,3 @@
-
 html { 
   scroll-behavior: smooth; 
 }
@@ -14,6 +13,55 @@ body {
   margin-left: 0px;
 }
 
+a {
+  text-decoration: none;
+}
+
+img {
+  resize: both;
+}
+
+.spacer120 {
+  height: 120px;
+  padding: 30px;
+}
+
+.spacer30 {
+  height: 30px;
+}
+
+.darkPurple {
+  color: rgb(35, 14, 62);
+}
+
+.mediumPurple {
+  color: rgba(217, 155, 240, 0.237);
+}
+
+.lightPurple {
+  color: rgb(186, 144, 255);
+}
+
+@keyframes slideUp {
+  0%,
+    10% {
+      transform: translateY(100%);
+      opacity: 0%;
+    }
+
+    30%,
+    100% {
+      transform: translateY(0);
+      opacity: 100%;
+    
+    }
+  
+}
+
+
+
+@media screen and (max-device-width:1280px) {
+
 .page1 {
   background-color: rgb(35, 14, 62);
   padding: 1%;
@@ -26,16 +74,6 @@ body {
   padding: 0px;
   width:screen;;
   height:640px;
-}
-
-
-a {
-  text-decoration: none;
-}
-
-
-img {
-  resize: both;
 }
 
 .star1 {
@@ -137,46 +175,6 @@ img {
   transition-timing-function: ease-out;
   opacity: 100%;
 }
-
-.spacer120 {
-  height: 120px;
-  padding: 30px;
-}
-
-.spacer30 {
-  height: 30px;
-}
-
-.darkPurple {
-  color: rgb(35, 14, 62);
-}
-
-.mediumPurple {
-  color: rgba(217, 155, 240, 0.237);
-}
-
-.lightPurple {
-  color: rgb(186, 144, 255);
-}
-
-
-
-@keyframes slideUp {
-  0%,
-    10% {
-      transform: translateY(100%);
-      opacity: 0%;
-    }
-
-    30%,
-    100% {
-      transform: translateY(0);
-      opacity: 100%;
-    
-    }
-  
-}
-
 
 .bigCenterText {
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -298,10 +296,121 @@ img {
   opacity: 0%;
 }
 
+}
 
+@media screen and (max-device-width: 600px) and (orientation: portrait) {
+  
+.page1 {
+  background-color: rgb(35, 14, 62);
+  padding: 1%;
+  width:screen;
+  height:640px;
+}
 
+.page2 {
+  background-color: rgb(186, 144, 255);
+  padding: 0px;
+  width:screen;;
+  height:640px;
+}
 
+.star1 {
+  padding: 3.2%;
+  width: 12.9%;
+  content: url("unfilledStar2.png");
+  opacity: 0%;  
+  animation: slideUp 10s forwards;
+}
 
-p {
+.star2 {
+  padding: 3.2%;
+  width: 12.9%;
+  content: url("unfilledStar2.png");
+  opacity: 0%;
+  animation: slideUp 12s forwards;
+}
 
+.star3 {
+  padding: 3.2%;
+  width: 12.9%;
+  content: url("unfilledStar2.png");
+  opacity: 0%;
+  animation: slideUp 14s forwards;
+}
+
+.star4 {
+  padding: 3.2%;
+  width: 12.9%;
+  content: url("unfilledStar2.png");
+  opacity: 0%;
+  animation: slideUp 16s forwards;
+}
+
+.star5 {
+  padding: 3.2%;
+  width: 12.9%;
+  content: url("unfilledStar2.png");
+  opacity: 0%;
+  animation: slideUp 18s forwards;
+}
+
+.bigCenterText {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 300%;
+  text-align: center;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  top: 200px;
+  height: 60px;
+  opacity: 0%;
+  animation: slideUp 6s forwards;
+}
+
+.medCenterText {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 150%;
+  text-align: center;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  height: 30px;
+  padding: 0px;
+  opacity: 0%;
+  animation: slideUp 10s forwards;
+}
+
+.darkPurpleTopRightText {
+  color: rgb(35, 14, 62);
+  text-align: right;
+  height: 30px;
+  padding-right: 5%;
+  font-size: 300%;
+}
+
+.lightPurpleTopLeftText {
+  color: rgb(186, 144, 255);
+  text-align: left;
+  height: 30px;
+  padding-left: 5%;
+  font-size: 300%;
+}
+
+.starText1 {
+  opacity: 0%;
+}
+
+.starText2 {
+  opacity: 0%;
+}
+
+.starText3 {
+  opacity: 0%;
+}
+
+.starText4 {
+  opacity: 0%;
+}
+
+.starText5 {
+  opacity: 0%;
+}
 }
