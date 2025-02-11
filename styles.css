@@ -345,11 +345,11 @@ img {
   font-size: 700%;
   text-wrap: wrap;
   text-align: center;
-  float:inline-end;
+  float: top;
   margin-top: 0px;
   margin-bottom: 0px;
   top: 200px;
-  height: 60px;
+  height: max-content;
   opacity: 0%;
   animation: slideUp 6s forwards;
 }
@@ -357,12 +357,12 @@ img {
 .medCenterText {
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   font-size: 200%;
-  float:inline-end;
+  float: top;
   text-wrap: wrap;
   text-align: center;
   margin-top: 0px;
   margin-bottom: 0px;
-  height: 30px;
+  height: max-content;
   padding: 0px;
   opacity: 0%;
   animation: slideUp 10s forwards;
