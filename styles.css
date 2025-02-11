@@ -345,6 +345,7 @@ img {
   font-size: 700%;
   text-wrap: wrap;
   text-align: center;
+  float:inline-end;
   margin-top: 0px;
   margin-bottom: 0px;
   top: 200px;
@@ -355,7 +356,9 @@ img {
 
 .medCenterText {
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  font-size: 300%;
+  font-size: 200%;
+  float:inline-end;
+  text-wrap: wrap;
   text-align: center;
   margin-top: 0px;
   margin-bottom: 0px;
