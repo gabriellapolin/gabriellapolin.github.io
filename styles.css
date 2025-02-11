@@ -298,7 +298,7 @@ img {
 
 }
 
-@media screen and (max-device-width: 600px) and (orientation: portrait) {
+@media screen and (orientation: portrait) {
   
 .page1 {
   background-color: rgb(35, 14, 62);
