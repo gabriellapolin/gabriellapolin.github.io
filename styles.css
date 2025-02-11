@@ -301,7 +301,7 @@ img {
 @media screen and (orientation: portrait) {
   
 .page1 {
-  background-color: rgb(35, 14, 62);
+  background-color: red;
   padding: 1%;
   width:screen;
   height:640px;
