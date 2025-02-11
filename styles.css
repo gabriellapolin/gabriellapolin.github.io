@@ -45,14 +45,14 @@ img {
 .page1 {
   background-color: rgb(35, 14, 62);
   padding: 0px;
-  width:100vw;
+  width:screen;
   height: 100vh;
 }
 
 .page2 {
   background-color: rgb(186, 144, 255);
   padding: 0px;
-  width:100vw;
+  width:screen;
   height: 100vh;
 }
 
@@ -342,7 +342,8 @@ img {
 
 .bigCenterText {
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  font-size: 300%;
+  font-size: 700%;
+  text-wrap: wrap;
   text-align: center;
   margin-top: 0px;
   margin-bottom: 0px;
@@ -354,7 +355,7 @@ img {
 
 .medCenterText {
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  font-size: 150%;
+  font-size: 300%;
   text-align: center;
   margin-top: 0px;
   margin-bottom: 0px;
@@ -380,23 +381,8 @@ img {
   font-size: 300%;
 }
 
-.starText1 {
-  opacity: 0%;
+.starText1, .starText2, .starText3, .starText4, .starText5 {
+  z-index: -1;
 }
 
-.starText2 {
-  opacity: 0%;
-}
-
-.starText3 {
-  opacity: 0%;
-}
-
-.starText4 {
-  opacity: 0%;
-}
-
-.starText5 {
-  opacity: 0%;
-}
 }
