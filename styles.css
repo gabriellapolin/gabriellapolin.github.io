@@ -42,6 +42,20 @@ img {
   color: rgb(186, 144, 255);
 }
 
+.page1 {
+  background-color: rgb(35, 14, 62);
+  padding: 0px;
+  width:100vw;
+  height: 100vh;
+}
+
+.page2 {
+  background-color: rgb(186, 144, 255);
+  padding: 0px;
+  width:100vw;
+  height: 100vh;
+}
+
 @keyframes slideUp {
   0%,
     10% {
@@ -61,20 +75,6 @@ img {
 
 
 @media screen and (max-device-width:3000px) {
-
-.page1 {
-  background-color: rgb(35, 14, 62);
-  padding: 0px;
-  width:screen;
-  height:640px;
-}
-
-.page2 {
-  background-color: rgb(186, 144, 255);
-  padding: 0px;
-  width:screen;;
-  height:640px;
-}
 
 .star1 {
   padding: 3.4%;
@@ -299,20 +299,6 @@ img {
 }
 
 @media screen and (max-device-width: 500px) {
-  
-.page1 {
-  background-color: red;
-  padding: 0px;
-  width:screen;
-  height:640px;
-}
-
-.page2 {
-  background-color: rgb(186, 144, 255);
-  padding: 0px;
-  width:screen;;
-  height:640px;
-}
 
 .star1 {
   padding: 3.2%;
